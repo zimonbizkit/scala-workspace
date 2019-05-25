@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    scalasbt:
+      build: ./docker/scalasbt/
+      tty: true
+      volumes:
+        - .:/home/scala
+      working_dir: /home/scala
+      env_file:
+        - .env

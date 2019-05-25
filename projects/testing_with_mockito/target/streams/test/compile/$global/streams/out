@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/scala/projects/testing_with_mockito/src/test/scala/farm/FarmSpec.scala:38:62: identifier expected but string literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def after = println("I ended up running at "+LocalDateTime.now"!")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
