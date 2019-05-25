@@ -1,9 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mFarmSpec[0m
-[0m[[0m[0minfo[0m] [0m[0mFarm should[0m
-[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m extract all tasks for multiple animals for one day[0m
-[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m extract for two days[0m
-[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m runs correctly in a limited number of days [0m
-[0m[[0m[0minfo[0m] [0m[0m  [36m*[0m only passes in correwct max age every other day Not quite ready to build this yet. Pending until fixed[0m
-[0m[[0m[0minfo[0m] [0m[0mTotal for specification FarmSpec[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 770 ms[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m4 examples, 103 expectations, 0 failure, 0 error, 1 pending[0m[0m
