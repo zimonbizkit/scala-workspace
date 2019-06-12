@@ -112,7 +112,7 @@ object Main {
     // of the elements of that collection, you would use the .collect function. We act with the List[Animal] created above
 
     println( // <-----------------------------------------------------------------__________________________________
-      la.collect {                                                             // | When writing immutable code one,
+      la.collect {                                                             // | When writing immutable code one
       // this just does a pattern match for one specific type of the list.     // | of the main gains to aim is to avoid
       case fa: FarmAnimal => fa                                                // | side-effecting as much as possible.
       }                                                                        // | However, when using specific functions
@@ -130,10 +130,6 @@ case object Cat extends Animal                                                 /
 case object Cow extends FarmAnimal                                             // .________________________________
 case object Horse extends FarmAnimal
 
-
-
-
 case object Three {
   def toInt = 3
 }
-

@@ -1,0 +1,10 @@
+run
+debug
+exit
+run
+compile && run
+compile
+run
+compile
+run
+exit

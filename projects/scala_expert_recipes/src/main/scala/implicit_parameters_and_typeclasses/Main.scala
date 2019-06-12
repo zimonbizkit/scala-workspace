@@ -82,7 +82,7 @@ object Main {
     )
 
     // but how do we know which implicit goes into which function 'addTwoThings' call? This is thanks to a strong type checking.
-    // addTwoThings, accepts _anything_ (type T). Given the implicit Adder that's included in this method, we can tell, via the type of
+    // addTwoThings, accepts _anything_ (type T). Given  the implicit Adder that's included in this method, we can tell, via the type of
     // intAdder (Adder[Int]) and StringAdder (Adder[String]), which implicit val actually _fits_ for which call.
 
     // Not having these implicit vals defined in scope, and calling the 'addTwoThings' method with a specific 'unimplicited' type will result
@@ -91,5 +91,3 @@ object Main {
   }
 
 }
-
-º
