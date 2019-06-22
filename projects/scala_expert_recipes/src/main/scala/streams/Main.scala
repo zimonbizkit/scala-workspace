@@ -10,7 +10,7 @@ object Main {
     println(l.map(_ => println("hello")).take(3))
 
     // streams are answer to what happens if I want to have a colection tahat lets me only do the operations
-    // that I end up needing
+    // that I end up needing on a specific portion of a collection and not all
 
     // the operation below will have only the println done three times
     //  |_________
@@ -31,13 +31,13 @@ object Main {
 
     // this will only print 1
     println(fl.toStream.map(_()).take(1))
-
+    // 53
     println(Stream.continually(5).take(3))
-
+    // 20
     println(Stream.continually(2).take(20))
-
+    // 8
     println(Stream.concat(List(1,2,3),List(1,2,3,4,5),List(5,6,7,8)).take(8))
-
+    //
     print(Stream.range(1,100,3))
 
     // This is going to be slow as iteratively creating a stream of many values can be slow performant

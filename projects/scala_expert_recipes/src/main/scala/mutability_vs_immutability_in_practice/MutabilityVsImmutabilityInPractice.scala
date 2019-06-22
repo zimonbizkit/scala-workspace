@@ -25,7 +25,5 @@ object MutabilityVsImmutabilityInPractice {
 
     // this takes 10s average to run as the first println shows, this is slow
     println(end - start)
-
-    //
   }
 }
